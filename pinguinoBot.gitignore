@@ -2,6 +2,7 @@
 
 # Sublime Text 3 Project Workspace 
 *.sublime-project
+*.sublime-workspace
 
 # Discord Bot Config File
 config.json
