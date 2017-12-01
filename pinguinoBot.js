@@ -35,6 +35,11 @@ client.on("message", (message) => {
 
 	if(command === 'ping') {
 		message.channel.send('Pong!');
+	} else 
+
+	if(command === 'koncha') {
+		message.channel.send("Weeb friendly server! <:KonCha:386268769338654720>");
+		// Type \:EmojiName: in chat to get the proper ID for custom emojis
 	}
 
 
