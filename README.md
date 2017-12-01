@@ -1,0 +1,2 @@
+# pinguinoBot
+Discord chat bot
