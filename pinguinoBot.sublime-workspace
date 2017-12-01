@@ -1,0 +1,381 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ans",
+				"answerKeyFile"
+			],
+			[
+				"answer",
+				"answerOptions"
+			],
+			[
+				"question",
+				"questionNum"
+			],
+			[
+				"wrong",
+				"wrongAnswers"
+			],
+			[
+				"stu",
+				"studentCount"
+			],
+			[
+				"my",
+				"myName"
+			],
+			[
+				"Text",
+				"Texture"
+			],
+			[
+				"is",
+				"isMovable"
+			],
+			[
+				"movement",
+				"movementVector"
+			],
+			[
+				"move",
+				"movementVector.y"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"Animat",
+				"Animator"
+			],
+			[
+				"Vec",
+				"Vector3"
+			],
+			[
+				"scree",
+				"Screen.height"
+			],
+			[
+				"getax",
+				"Input.GetAxisRaw(axisName)"
+			],
+			[
+				"vec",
+				"Vector2()"
+			],
+			[
+				"animat",
+				"Animator"
+			],
+			[
+				"Ri",
+				"Rigidbody2D"
+			],
+			[
+				"season",
+				"seasonsDisplay"
+			],
+			[
+				"Pe",
+				"Penguins"
+			],
+			[
+				"sea",
+				"seasonString"
+			],
+			[
+				"months",
+				"monthsPerYear"
+			],
+			[
+				"day",
+				"daysPerMonth"
+			],
+			[
+				"timeM",
+				"timeMonth"
+			],
+			[
+				"Param",
+				"Parameters"
+			],
+			[
+				"time",
+				"timeHours"
+			],
+			[
+				"timeTen",
+				"timeTenHours"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"relat",
+				"relationships"
+			],
+			[
+				"re",
+				"Relationship"
+			],
+			[
+				"Armor",
+				"armor"
+			],
+			[
+				"known",
+				"knownBlueprints"
+			],
+			[
+				"Poop",
+				"PoopSammich"
+			],
+			[
+				"Craft",
+				"Crafting_Blueprint"
+			],
+			[
+				"myNum",
+				"myNumber"
+			],
+			[
+				"plug",
+				"pluginCommand"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"param",
+				"parameters"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 588.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 648.0
+	},
+	"console":
+	{
+		"height": 186.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Justin/Documents/GitHub/pinguinoBot"
+	],
+	"file_history":
+	[
+		"/C/Users/Justin/Documents/Game Dev/Ren'Py/Tomfoolery/game/script.rpy",
+		"/C/Users/Justin/Documents/Game Dev/Ren'Py/Test Project/game/screens.rpy",
+		"/C/Users/Justin/Documents/Game Dev/Ren'Py/Tomfoolery/game/inventory.rpy",
+		"/C/Users/Justin/Documents/Game Dev/Ren'Py/Tomfoolery/game/menu.rpy",
+		"/C/Users/Justin/Documents/Game Dev/Ren'Py/Tomfoolery/game/intro.rpy",
+		"/C/Users/Justin/Documents/Game Dev/Ren'Py/Tomfoolery/game/movement.rpy",
+		"/C/Users/Justin/Documents/Game Dev/Ren'Py/renpy-6.99.12.4-sdk/Test Project/game/script.rpy",
+		"/C/Users/Justin/Documents/Game Dev/Ren'Py/renpy-6.99.12.4-sdk/the_question/game/script.rpy",
+		"/C/Users/Justin/Documents/Game Dev/Ren'Py/VN/game/script.rpy",
+		"/C/Users/Justin/Documents/Game Dev/Ren'Py/renpy-6.99.12.4-sdk/Test Project/game/options.rpy",
+		"/C/Users/Justin/Documents/RPGMV/Test/js/plugins/RoP_Clock.js",
+		"/C/Users/Justin/Documents/RPGMV/Test/js/plugins/RoP_Relationships.js",
+		"/C/Users/Justin/Documents/RPGMV/Test/js/main.js",
+		"/C/Users/Justin/Documents/RPGMV/Test/js/rpg_core.js",
+		"/C/Users/Justin/Documents/Web Dev/Test/mystyle.css",
+		"/C/Users/Justin/Documents/Web Dev/Test/test.html",
+		"/C/Users/Justin/Documents/Unity/unityTest/Tomfoolery/Assets/Scripts/PlayerMovement.cs",
+		"/C/Users/Justin/Documents/Unity/unityTest/Tomfoolery/Assets/Main Menu/Scripts/MainMenu.cs",
+		"/C/Users/Justin/Documents/GitHub/rpgm/RoP_Relationships.js",
+		"/C/Users/Justin/Documents/Unity/unityTest/Tomfoolery/Assets/Scripts/Warp.cs",
+		"/C/Users/Justin/Documents/Unity/unityTest/Tomfoolery/Assets/Scripts/ScreenFader.cs",
+		"/C/Users/Justin/Documents/Unity/unityTest/Tomfoolery/Assets/Scripts/CameraFollow.cs",
+		"/C/Users/Justin/Desktop/test.html",
+		"/C/Users/Justin/Desktop/mystyle.css",
+		"/C/Users/Justin/Documents/RPGMV/Test/js/plugins/craftingTest.js",
+		"/C/Users/Justin/Documents/Game Dev/RPGMV/Scripting/crafting.js",
+		"/C/Users/Justin/Documents/Game Dev/RPGMV/Scripting/crafting-temp.js",
+		"/C/Users/Justin/Documents/Unity/unityTest/Tomfoolery/Assets/Main Menu/Scripts/Main Menu.cs",
+		"/C/Users/Justin/Documents/Unity/unityTest/Tomfoolery/Tomfoolery.sublime-project",
+		"/C/Users/Justin/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Justin/Documents/RPGMV/Test/js/rpg_scenes.js",
+		"/C/Users/Justin/Documents/RPGMV/Test/js/rpg_windows.js",
+		"/C/Users/Justin/Documents/RPGMV/Test/js/plugins/YEP_MapGoldWindow.js",
+		"/C/Users/Justin/Documents/RPGMV/Test/js/rpg_managers.js",
+		"/C/Program Files (x86)/Steam/steamapps/common/Starbound/storage/starbound.config",
+		"/C/Users/Justin/Documents/RPGMV/Test/js/libs/pixi.js",
+		"/C/Users/Justin/Documents/RPGMV/Test/js/rpg_objects.js",
+		"/C/Users/Justin/Documents/GitHub/RoP/stylesheet.css",
+		"/C/Users/Justin/Documents/GitHub/RoP/index.html",
+		"/C/Users/Justin/Documents/RPGMV/Relationship Test/js/plugins/RoP_Relationships.js",
+		"/C/Program Files (x86)/Steam/steamapps/common/RPG Maker MV/dlc/RPGmakerWeb_plugins/Yanfly/YEP_X_SkillCooldowns.js",
+		"/C/Users/Justin/Documents/Game Dev/template.js",
+		"/C/Users/Justin/Documents/Game Dev/Scripting/skipTitle.js",
+		"/C/Users/Justin/Documents/RPGMV/Test/js/plugins/EnemyBook.js",
+		"/C/Users/Justin/Documents/RPGMV/Test/js/plugins/craftingTest1.js",
+		"/C/Users/Justin/Desktop/js/rpg_windows/Window_ItemList.js",
+		"/C/Users/Justin/Documents/RPGMV/Test/js/plugins/ItemBook.js",
+		"/C/Users/Justin/Documents/Game Dev/Scripting/crafting-temp.js",
+		"/C/Users/Justin/Documents/RPGMV/Spellblade/js/plugins/WeaponSkill.js",
+		"/C/Program Files (x86)/Steam/steamapps/common/RPG Maker MV/dlc/RPGmakerWeb_plugins/Yanfly/YEP_SkillCore.js",
+		"/C/Program Files (x86)/Steam/steamapps/common/RPG Maker MV/dlc/RPGmakerWeb_plugins/Shaz/Ace  MV Converter.rb",
+		"/C/Program Files (x86)/Steam/steamapps/common/RPG Maker MV/dlc/RPGmakerWeb_plugins/Shaz/ActorStepAnim.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 156.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "pinguinoBot.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 305.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

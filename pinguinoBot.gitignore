@@ -1,0 +1,8 @@
+# First ignore file from scratch!
+
+# Sublime Text 3 Project Workspace 
+*.sublime-project
+
+# Discord Bot Config File
+config.json
+
