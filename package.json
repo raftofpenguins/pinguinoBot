@@ -1,0 +1,23 @@
+{
+  "name": "pinguinoBot",
+  "version": "1.0.0",
+  "description": "Discord chat bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raftofpenguins/pinguinoBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raftofpenguins/pinguinoBot/issues"
+  },
+  "homepage": "https://github.com/raftofpenguins/pinguinoBot#readme",
+  "dependencies": {
+    "discord.js": "^11.2.1"
+  }
+}

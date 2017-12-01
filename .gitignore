@@ -6,3 +6,6 @@
 
 # Discord Bot Config File
 config.json
+
+# Node package stuff
+/node_modules/
