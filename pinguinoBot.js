@@ -32,9 +32,16 @@ client.on("message", (message) => {
 	const args = message.content.slice(config.prefix.length).trim().split(/ +/g); 	
 	const command = args.shift().toLowerCase();
 
-
 	if(command === 'ping') {
 		message.channel.send('Pong!');
+	} else 
+
+	if(command === 'beep') {
+		message.channel.send('Boop, maggot!');
+	} else 
+
+	if(command === 'foo') {
+		message.channel.send('Bar!');
 	} else 
 
 	if(command === 'koncha') {
