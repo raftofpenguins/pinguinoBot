@@ -13,6 +13,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client(); 		// represents <Client> class; some call it bot
 const config = require("./config.json"); 	// pairs config file to bot
+//import Math;
 
 client.login(config.token);					// Logs the bot in using token from the config file
 
@@ -47,6 +48,27 @@ client.on("message", (message) => {
 	if(command === 'koncha') {
 		message.channel.send("Weeb friendly server! <:KonCha:386268769338654720>");
 		// Type \:EmojiName: in chat to get the proper ID for custom emojis
+	} else
+
+	if(command === 'dice') {
+		//message.channel.send('Dice command commencing!');
+
+		let numDice = args[0];
+		let sideDice = args[1];
+		let result = 0;
+		let total = 0;
+
+		//message.channel.send('Rolling ' + numDice + ' ' + sideDice + '-sided dice!');
+
+		for (i = 0; i < numDice; i++) {
+			//message.channel.send('i: ' + i + 'numDice.length: ' + numDice.length);
+			result = (Math.floor(Math.random() * sideDice) + 1);
+			total += result;
+
+			//message.channel.send('Result #' + (i+1) + ': ' + result + ' | Total: ' + total);
+		}
+
+		message.channel.send('By rolling ' + numDice + ' ' + sideDice + '-sided dice, the total result is ' + total);
 	}
 
 
