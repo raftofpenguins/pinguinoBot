@@ -29,8 +29,9 @@ client.on("message", (message) => {
 	if (!message.content.startsWith(config.prefix) || message.author.bot) return; 
 
 	// Trims command into array of arguments
-	// Returns command in all lowercase letters
 	const args = message.content.slice(config.prefix.length).trim().split(/ +/g); 	
+
+	// Returns command in all lowercase letters
 	const command = args.shift().toLowerCase();
 
 	if(command === 'ping') {
@@ -69,6 +70,35 @@ client.on("message", (message) => {
 		}
 
 		message.channel.send('By rolling ' + numDice + ' ' + sideDice + '-sided dice, the total result is ' + total);
+	} else
+
+	if(command === 'dicemg') {
+		//message.channel.send('Dice command commencing!');
+
+		let numDice = args[0];
+		let snakes = 0;
+		let swords = 0;
+		let axes = 0;
+		let total = 0;
+
+		//message.channel.send('Rolling ' + numDice + ' ' + sideDice + '-sided dice!');
+
+		for (i = 0; i < numDice; i++) {
+			//message.channel.send('i: ' + i + 'numDice.length: ' + numDice.length);
+			result = (Math.floor(Math.random() * 6) + 1);
+			if(result < 4) {
+				snakes += 1;
+			} else if(result < 6) {
+				swords += 1;
+			} else {
+				axes += 1;
+			}
+
+			//message.channel.send('Result #' + (i+1) + ': ' + result + ' | Total: ' + total);
+		}
+
+		message.channel.send('By rolling ' + numDice + ' Mouse Guard dice, the total result is: [Snakes - ' 
+			+ snakes + ' | Swords - ' + swords + ' | Axes - ' + axes + ']');
 	}
 
 
